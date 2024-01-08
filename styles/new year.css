@@ -401,7 +401,7 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding: 100px;
+    
     width: 340px;
 }
 
@@ -410,7 +410,8 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding: 100px 100px 100px 300px;
+   padding-left: 420px;
+   margin-bottom: 70px;
     width: 500px;
 }
 .sulotion{
@@ -422,7 +423,7 @@ body {
 
 .icon-container {
     text-align: center;
-    padding-bottom: 100px;
+    padding: 70px 0px;
 
 }
 
@@ -433,5 +434,8 @@ body {
     font-weight: 500;
     display: flex;
     justify-content: space-between;
-    padding: 5px 100px;
+   
+}
+.total{
+   padding: 100px; 
 }
