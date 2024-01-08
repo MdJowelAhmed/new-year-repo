@@ -143,7 +143,7 @@ body {
 
 }
 
-span {
+.span1 {
     color: #F00;
     font-family: Inter;
     font-size: 25px;
@@ -169,7 +169,8 @@ span {
     width: 1150px;
     margin: auto;
     margin-top: 0px;
-    
+    margin-bottom: 100px;
+
 }
 
 .best-offer {
@@ -192,7 +193,8 @@ span {
     font-size: 15px;
     font-weight: 400;
 }
-.come-container{
+
+.come-container {
     margin-right: 70px;
 }
 
@@ -217,7 +219,71 @@ span {
     font-size: 20px;
     font-weight: 400;
 }
-.group{
+
+.group {
     height: 140px;
     width: 140px;
+}
+
+/* holiday styles start here  */
+.holiday-container{
+    width: 1150px;
+}
+.what {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-title {
+    color: #F00;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 100px;
+
+}
+
+.span2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 900;
+}
+.pic-container{
+    
+    display: grid;
+    grid-template-columns: 300px 200px 300px;
+    width: 1150px;
+    
+    margin: auto;
+    background-image: url('../images/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+   
+}
+.girl-pic{
+    height: 300px;
+    width: 250px;
+    padding-left: 500px;
+}
+.bom-pic{
+    width: 300px;
+    height: 250px;
+    margin-right: 100px;
+}
+.circle-pic{
+    padding-bottom: 300px;
 }
