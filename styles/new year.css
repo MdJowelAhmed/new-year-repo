@@ -130,15 +130,16 @@ body {
     border-radius: 8px;
     background: #F00;
     text-align: center;
-   
+
 }
-.button-container{
+
+.button-container {
     text-align: center;
 }
 
 
 .new-park-container {
-    padding-top: 100px; 
+    padding-top: 100px;
 
 }
 
@@ -154,8 +155,69 @@ span {
     font-family: Inter;
     font-size: 25px;
     font-weight: 600;
+
+}
+
+.pre {
+    padding-left: 150px;
+}
+
+/* come section styles  */
+.coming-soon-container {
+    display: grid;
+    grid-template-columns: 380px 430px 250px;
+    width: 1150px;
+    margin: auto;
+    margin-top: 0px;
     
 }
-.pre{
-    padding-left: 150px;
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coming-title {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+
+.coming-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+.come-container{
+    margin-right: 70px;
+}
+
+.come-image {
+    border: 8px solid red;
+    padding: 10px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.number {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.para-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.group{
+    height: 140px;
+    width: 140px;
 }
