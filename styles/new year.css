@@ -291,12 +291,19 @@ body {
 
 .circle-pic {
     text-align: center;
+    margin-top: -400px;
+    margin-right: 600px;
+    width: 100px;
+    height: 100px;
+
 }
 
 /* portfolio section style start here  */
-.portfolio-container{
+.portfolio-container {
     margin-left: 70px;
+    width: 1150px;
 }
+
 .best-gift {
     color: #F00;
     font-family: Inter;
@@ -319,9 +326,99 @@ body {
     font-weight: 400;
     width: 800px;
 }
-.portfilio-image-container{
+
+.portfilio-image-container {
     margin: 20px 70px 10px 70px;
+    background: #FFF;
 }
-.portfolio-image{
-   
+
+.portfolio-image {
+    width: 360px;
+    height: auto;
+    margin: 5px;
+}
+
+/* subscriber section  */
+.subscribe-container {
+    width: 1150px;
+    height: 500px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 90px 70px;
+    text-align: center;
+}
+
+.email {
+    padding-top: 60px;
+}
+
+.subscriber-description {
+    padding: 25px 190px;
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#input {
+    height: 50px;
+    margin-left: 300px;
+    width: 300px;
+}
+
+.button {
+    border: 4px solid red;
+    border-radius: 0px 50px 50px 0px;
+    padding: 15px;
+    height: 55px;
+}
+
+.subscriber-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.my-address-container {
+    width: 1150px;
+    height: 600px;
+    background-color: #070211;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 70px;
+}
+
+.my-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 100px;
+    width: 340px;
+}
+
+.contract-container{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 100px;
+    width: 500px;
+}
+.icon-container{
+    text-align: center;
+    
+}
+.footer-container{
+
 }
