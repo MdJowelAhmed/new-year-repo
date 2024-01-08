@@ -117,8 +117,8 @@ body {
     background-repeat: no-repeat;
     height: 480px;
     width: 1150px;
-
-    margin: auto;
+    margin: 30px 70px 0px 70px;
+    ;
 
 }
 
@@ -167,7 +167,7 @@ body {
     display: grid;
     grid-template-columns: 380px 430px 250px;
     width: 1150px;
-    margin: auto;
+    margin: 0px 70px 100px 70px;
     margin-top: 0px;
     margin-bottom: 100px;
 
@@ -195,7 +195,7 @@ body {
 }
 
 .come-container {
-    margin-right: 70px;
+    margin: 0px 70px;
 }
 
 .come-image {
@@ -226,9 +226,10 @@ body {
 }
 
 /* holiday styles start here  */
-.holiday-container{
+.holiday-container {
     width: 1150px;
 }
+
 .what {
     color: #070211;
     font-family: Inter;
@@ -261,29 +262,58 @@ body {
     font-size: 55px;
     font-weight: 900;
 }
-.pic-container{
-    
+
+.pic-container {
+
     display: grid;
     grid-template-columns: 300px 200px 300px;
     width: 1150px;
-    
-    margin: auto;
+    height: 662px;
+    margin: 0px 70px 100px 70px;
     background-image: url('../images/resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
-   
-   
+
+
 }
-.girl-pic{
+
+.girl-pic {
     height: 300px;
     width: 250px;
-    padding-left: 500px;
+    padding-left: 420px;
 }
-.bom-pic{
+
+.bom-pic {
     width: 300px;
     height: 250px;
     margin-right: 100px;
 }
-.circle-pic{
-    padding-bottom: 300px;
+
+.circle-pic {
+    text-align: center;
+}
+
+/* portfolio section style start here  */
+.portfolio-container{
+    margin-left: 70px;
+}
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.portfolio-title {
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    color: #070211;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
 }
