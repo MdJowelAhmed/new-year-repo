@@ -309,6 +309,7 @@ body {
     font-size: 32px;
     font-weight: 900;
     color: #070211;
+    margin: 10px 0px;
 }
 
 .portfolio-description {
@@ -316,4 +317,11 @@ body {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
+    width: 800px;
+}
+.portfilio-image-container{
+    margin: 20px 70px 10px 70px;
+}
+.portfolio-image{
+   
 }
