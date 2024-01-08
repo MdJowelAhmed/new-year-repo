@@ -105,6 +105,57 @@ body {
     font-weight: 700;
     padding-top: 50px;
 }
-.welcome-image-con{
+
+.welcome-image-con {
     padding: 55px 80px 55px 10px;
+}
+
+/* new park section start  */
+
+.new-park-container {
+    background-image: url('../images/resources/gradient3.png');
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 1150px;
+
+    margin: auto;
+
+}
+
+.button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    text-align: center;
+   
+}
+.button-container{
+    text-align: center;
+}
+
+
+.new-park-container {
+    padding-top: 100px; 
+
+}
+
+span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.new-park-descriptoin {
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.pre{
+    padding-left: 150px;
 }
